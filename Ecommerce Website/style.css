@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-style: ridge;
+    border-width: 2;
+    border-color: black;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+p{
+    color: black;
+    
+}
+
+
+
+/* 
+
+.container{
+    max-width: 1900px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 25px;
+} 
+
+*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.jacket img{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    width: 450px;
+    left: 1150px;
+    top: 250px;
+    z-index: 11;
+    
+}
+.dkJeans img{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    width: 400px;
+    bottom: -350px;
+    left: 575px;
+    z-index: 5;
+}
+.crewneck img{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    top: 1px;
+    left: 500px;
+    width: 500px;
+    z-index: 5;
+}
+.ltJeans img{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    width: 400px;
+    left: -50px;
+    bottom: -100px;
+    z-index: 18;
+}
+.sweatband img{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    width: 300px;
+    left: 300px;
+    top: 300px;
+}
+
+
+
+.sweater img{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    width: 400px;
+    top: -50;
+    left: -125px;
+    z-index: 3;
+}
+
+
+.cottonWreath1{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 1430px;
+    top: 430px;
+    z-index: 12;
+
+}
+
+.cottonWreath2{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 1300px;
+    top: 100px;
+z-index: 10;
+}
+.flower1{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 740px;
+    top: -25px;
+z-index: 10;
+}
+
+.flower2{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 140px;
+    top: -25px;
+z-index: 10;
+}
+
+.flower3{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 230px;
+    top: 470px;
+z-index: 20;
+}
+
+
+.flower4{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 290px;
+    top: 370px;
+z-index: 19;
+}
+
+.flower5{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 580px;
+    top: 370px;
+    rotate: 240deg;
+z-index: 1;
+}
+
+.flower6{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 790px;
+    top: 160px;
+z-index: 5;
+}
+
+.flower7{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 1220px;
+    top: -60px;
+    rotate: 310deg;
+z-index: 1;
+}
+
+.cottonBehindPants1{
+    max-width: 100%;
+    position: absolute;
+    left: -160px;
+    bottom: 90px;
+    z-index: 1;
+}
+
+.cottonBehindPants2{
+    max-width: 100%;
+    position: absolute;
+    left: 100px;
+    bottom: -100px;
+    
+    z-index: 1;
+}
+.cottonWreath3{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 1390px;
+    top: 770px;
+    
+z-index: 1;
+}
+.cottonWreath4{
+    max-width: 100%;
+    padding: 50;
+    position: absolute;
+    left: 780px;
+    top: 590px;
+z-index: 2;
+}
