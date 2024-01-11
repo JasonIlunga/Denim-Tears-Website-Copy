@@ -398,3 +398,18 @@ margin-right: 30px;
 .payBody{
     overflow-wrap: normal;
 }
+.cart{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart  table img{
+    width: 70px;
+    
+}
+.cart-add{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

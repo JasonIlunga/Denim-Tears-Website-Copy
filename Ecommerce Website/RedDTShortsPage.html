@@ -16,7 +16,7 @@
                         
                         <li><a href="shop.html">Shop</a> </li>
                     <li><a href="index.html">Home</a> </li>
-                    <li><a href="">Cart</a> </li>
+                    <li><a href="cart.html">Cart</a> </li>
                     </ul>
             
             
@@ -48,13 +48,23 @@
             <option>Medium</option>
             <option>Small</option>
  </select>
-            <input type = "number" value = "1">
-            <button>add</button>
+
+ <td id = "table1" ><button onclick="myFunction4()">Add To Cart</button>
         </div>
         <div class = "sizeGuide">
         <a href="https://denimtears.com/ca/size-guide">Size Guide</a>
         </div>
     </div>
     
+    <script>
+        function AddToCart() {
+          // Set a value in localStorage to indicate that the button was clicked
+          localStorage.setItem('RedShorts', 'true');
+      
+          // Redirect to the second page
+          window.location.href = 'cart.html';
+        }
+</script>
+
 </body>
 </html>
