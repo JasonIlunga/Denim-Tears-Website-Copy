@@ -1,0 +1,135 @@
+<head>
+    <meta charset="UTF-8">
+        <title>DENIM TEARS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body class = "payBody " style="background-color: #ffffff;">
+        
+        <div class="container">
+            <div class="navbar">
+                
+                <a href="index.html"><img src="denim-tears-logo-black.0e604604.svg" width="170" >
+               
+                <nav>
+                    <ul>
+                        
+                        <li><a href="shop.html">Shop</a> </li>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="cart.html">Cart</a> </li>
+                    </ul>
+            
+            
+                </nav>
+        </div>
+        
+
+    <section id="cart" class = "section-p1">
+        <table width = "100%">
+        <thread>
+        <tr>
+        <td>Remove</td>
+        <td>Image</td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>Subtotal</td>
+        </tr>
+    </thread>
+    <tbody  id = "table1">
+        <tr>
+            <td id = "table1" ><button onclick="myFunction1()">X</button>
+            <td><img src="RedDTShorts.webp" width = 100px> </td>
+            <td>The Cotton Wreath Shorts Red</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1"></td>
+            <td>$118.19</td>
+        </tr>
+    </tbody>
+    <tbody id = "table2">
+        <tr>
+            <td id = "table2" ><button onclick="myFunction2()">X</button>
+            <td><img src="PurpleDTHoodie.webp" width = 100px> </td>
+            <td>The Cotton Wreath Shorts Red</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1"></td>
+            <td>$118.19</td>
+        </tr>
+    </tbody>
+    <tbody id = "table3">
+        <tr>
+            <td id = "table3" ><button onclick="myFunction3()">X</button>
+            <td><img src="RedDTHoodie.webp" width = 100px> </td>
+            <td>The Cotton Wreath Shorts Red</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1"></td>
+            <td>$118.19</td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    function myFunction1() {
+      document.getElementById("table1").deleteRow(0);
+    }
+    </script>
+
+<script>
+    function myFunction2() {
+      document.getElementById("table2").deleteRow(0);
+    }
+    </script>
+
+
+<script>
+    function myFunction3() {
+      document.getElementById("table3").deleteRow(0);
+    }
+    </script>
+
+<script>
+    // Check if the button was clicked on the first page
+    var RedShorts = localStorage.getItem('buttonClicked');
+  
+    if (RedShorts === 'true') {
+        document.getElementById("table1").insertRow(0);
+      
+      // Reset the localStorage value (optional)
+      localStorage.removeItem('RedShorts');
+    }
+  </script>
+
+
+
+
+<section  id="cart-add" class ="section-p1" > 
+
+<div id = "coupon">
+<h3>Apply Coupon</h3>
+<div>
+<input type = "text" placeholder="Enter Your Coupon">
+<button class = "normal">Apply</button>
+</div>
+
+<div id = "subtotal">
+    <h3>Cart Totals<h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$ 335</td>
+            </tr> 
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong</td>
+                <td><strong>$ 335</strong</td>
+            </tr>
+        </table>
+</div>
+</section>
+
+      
+</body>
+</html>
